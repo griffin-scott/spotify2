@@ -1,0 +1,21 @@
+#cat-logo {
+    height: 70px;
+    width: 70px;
+    margin: 0 10px;
+}
+
+#acc-logo {
+    height: 45px;
+    width: 45px;
+}
+
+.nb-link {
+    font-size: 1.2rem !important;
+    /* color: rgb(220, 220, 220) !important; */
+    border: solid 0.05rem black;
+}
+
+.nb-link:hover {
+    border-bottom: solid 0.05rem;
+    color: white !important;
+}

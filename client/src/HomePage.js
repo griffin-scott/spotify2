@@ -1,11 +1,9 @@
 // import './HomePage.css';
 
-import Todo from "./components/Todo";
-
 function HomePage() {
     return (
         <div className="HomePage">
-            <Todo></Todo>
+            <h1 className="display-1 text-center">Home Page</h1>
         </div>
     );
 }
