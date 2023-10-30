@@ -6,10 +6,10 @@ import "bootstrap/dist/js/bootstrap.bundle.js";
 import "./index.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
 import Todo from "./components/Todo";
 import HomePage from "./HomePage";
 import Layout from "./Layout";
+import ArtistPage from "./ArtistsPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +19,7 @@ root.render(
                 <Route path="/" element={<Layout />}>
                     <Route index element={<HomePage />} />
                     <Route path="todo" element={<Todo />} />
+                    <Route path="discover" element={<ArtistPage />} />
                     {/* <Route path="*" element={<NoPage />} /> */}
                 </Route>
             </Routes>
